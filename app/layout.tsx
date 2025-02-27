@@ -16,6 +16,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <Link className="px-4" href="/">Home</Link>
               <Link className="px-4" href="/about">About Us</Link>
               <Link className="px-4" href="/blog">Blog</Link>
+              <Link className="px-4" href="/students">Students</Link> {/* ✅ Thêm mục Students */}
             </div>
             <Link className="px-4" href="/login">Logout</Link>
           </div>
